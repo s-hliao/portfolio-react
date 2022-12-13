@@ -26,7 +26,7 @@ function App() {
       </Banner>
 
       <Block title="Resume">
-          <a href="\Resume Henry Liao.pdf">Resume</a>
+          <a href="\portfolio-react\Resume Henry Liao.pdf">Resume</a>
       </Block>
 
       <Block title="Projects">
