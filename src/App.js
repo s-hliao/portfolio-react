@@ -1,40 +1,44 @@
-function App(props) {
+import Title from './components/Title'
+import Banner from './components/Banner'
+import Block from './components/Block'
+import Array from './components/Array'
+import BlockText from './components/BlockText'
+import Modal from "./components/Modal"
+
+function App() {
+
+  fetch
+
+  var aboutMeText = "Hi, my name is Henry and I'm a Computer Science student from the Georgia Institute of Technology."
+  +"I'm keen to understand all approaches to autonomous robotics from engineering to theory."+
+  +"I also spend some of my free time working on the following projects, mainly just cool ideas inspired by my everyday life or conversations with friends."+
+  "In my free time, I love to cook, practice piano, and play various video games."
   return (
     <div className="portfolioapp stack-large">
-      <Block>
-        <h1>Henry Liao</h1>
-      </Block>
+      <Title>
+        <BlockText text = "Software Engineer | Roboticist"/>
+      </Title>
       
 
-      
-      <Banner>
-        <h2 className="about-me-title">
-          About Me
-        </h2>
+      <Banner title="About Me">
+        <BlockText text = {aboutMeText}/>
       </Banner>
 
-      <Block>
-        <h2 id="resume-title">
-          Resume
-        </h2>
+      <Block title="Resume">
+          <a href="s-hliao.github.io/portfolio-react/public/Resume Henry Liao.pdf"></a>
+
       </Block>
 
-      <Block>
-        <h2 id="projects-title">
-          Projects
-        </h2>
+      <Block title="Projects">
+
       </Block>
 
-      <Block>
-        <h2 id="research-title">
-          Research
-        </h2>
+      <Block title = "Research">
+
       </Block>
 
-      <Block>
-        <h2 id="contact-me-title">
-          Contact Me
-        </h2>
+      <Block title = "Contact Me">
+
       </Block>
     </div>
   );
