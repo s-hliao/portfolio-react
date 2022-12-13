@@ -1,7 +1,7 @@
 import React from 'react'
 export default function Block(props){
     return(
-        <div className="block stack-small">
+        <section id={props.id} className="block stack-small">
             <h2>
                 {props.title}
             </h2>
@@ -9,6 +9,6 @@ export default function Block(props){
                 {props.children}
             </div>
             
-        </div>
+        </section>
     );
 }

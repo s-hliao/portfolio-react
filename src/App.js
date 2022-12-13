@@ -8,28 +8,21 @@ import Hook from "./components/Hook"
 
 function App() {
 
-  var aboutMeText = "Hi, my name is Henry and I'm a Computer Science student from the Georgia Institute of Technology."
-  +"I'm keen to understand all approaches to autonomous robotics from engineering to theory."+
-  +"I also spend some of my free time working on the following projects, mainly just cool ideas inspired by my everyday life or conversations with friends."+
-  "In my free time, I like to cook, practice piano, and play various video games."
+  var aboutMeText = "Hi, my name is Henry and I'm a Computer Science student from the Georgia Institute of Technology. I'm keen to understand all approaches to autonomous robotics from engineering to theory. I also spend some of my free time working on the following projects, mainly just cool ideas inspired by my everyday life or conversations with friends. In my free time, I like to cook, practice piano, and play various video games."
 
 
   return (
     <div className="portfolioapp stack-large">
-      <Title>
-        <BlockText text = "Software Engineer | Roboticist"/>
-      </Title>
-      
+      <Title image="myimage" id="title"/>
+  
+      <Banner title="About Me" id="aboutme" text = {aboutMeText}/>
 
-      <Banner title="About Me">
-        <BlockText text = {aboutMeText}/>
-      </Banner>
-
-      <Block title="Resume">
+      <Block title="Resume" id="resume">
+        
           <a href="https:\\s-hliao.github.io\portfolio-react\Resume Henry Liao.pdf">Resume</a>
       </Block>
 
-      <Block title="Projects">
+      <Block title="Projects" id="project">
         <Array>
           <Hook/>
           <Hook/>
@@ -39,13 +32,13 @@ function App() {
         
       </Block>
 
-      <Block title = "Research">
+      <Block title = "Research" id="research">
         <Array>
           <Hook/>
         </Array>
       </Block>
 
-      <Block title = "Contact Me">
+      <Block title = "Contact Me" id="contact">
         <></>
       </Block>
 
