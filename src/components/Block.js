@@ -1,11 +1,11 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container';
-import {Fade} from 'react-awesome-reveal';
+import Fade from 'react-reveal/Fade'
 
 export default function Block(props){
     return(
         <section id={props.id} className="block stack-small">
-            <Fade left={true} bottom={false} duration={1000} delay={500} distance="30px">
+            <Fade left>
                 <h2>
                     {props.title}
                 </h2>
