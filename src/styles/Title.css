@@ -9,15 +9,26 @@
     margin-bottom: 0;
     top: 0;
     left: 0;
-    bottom: 0;
+    bottom: 20vh;
     right: 0;
     z-index: -1;
     justify-content: center;
 }
 
+#title-container {
+    margin-left: 3rem;
+}
+
 .circular {
     max-width:50%;
     flex-grow:1;
+    border-radius: 50%;
+    border-color: blue;
+    border-width: 1vh;
+    border-style: dotted;
+    background-color: blue;
 }
+
+
 
   

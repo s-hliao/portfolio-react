@@ -1,0 +1,19 @@
+h1{
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 15vh;
+    color:black
+}
+
+
+h2{
+    font-family: Helvetica;
+    font-size: 7vh;
+    color:blue;
+}
+
+h3{
+    font-family: Helvetica;
+    font-size: 30px;
+    color:white;
+}
