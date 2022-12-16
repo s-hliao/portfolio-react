@@ -1,0 +1,10 @@
+#banner-title {
+    font-family: Helvetica;
+    font-size: 7vh;
+    font-weight: bold;
+    color:white
+}
+
+#banner{
+    background-image: url("https:\\s-hliao.github.io\portfolio-react\banner-background.jpg");
+}

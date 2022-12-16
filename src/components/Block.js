@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade'
 export default function Block(props){
     return(
         <section id={props.id} className="block stack-small">
-            <Fade left>
+            <Fade >
                 <h2>
                     {props.title}
                 </h2>

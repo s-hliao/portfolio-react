@@ -6,6 +6,24 @@
     
 }
 
+.section-container{
+    display: flex;
+    align-items: center;
+    width:100%;
+    
+}
+
+.container-block{
+    display: block;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-evenly; 
+
+    height:100%;
+    width:100%;
+    background-color: white;
+}
+
 
 .container-row{
     display: flex;
@@ -16,6 +34,10 @@
     height:100%;
     width:100%;
     background-color: white;
+}
+
+#navflex{
+    background-color: #212529;
 }
 
 .container-col{
@@ -32,7 +54,7 @@
     flex:1;
     background-color: white;
     text-align: left;
-    line-height: 0.5;
+    line-height: 1;
 }
 
 .row-item-img{
@@ -41,3 +63,12 @@
     text-align: center;
 
 }
+
+.padding-left{
+    padding-left: 1rem;
+    text-align:left;
+}
+.padding-right{
+    padding-right: 0.5rem;
+}
+

@@ -8,14 +8,16 @@ import Hook from "./components/Hook"
 
 function App() {
 
-  var aboutMeText = "Hi, my name is Henry and I'm a Computer Science student from the Georgia Institute of Technology. I'm keen to understand all approaches to autonomous robotics from engineering to theory. I also spend some of my free time working on the following projects, mainly just cool ideas inspired by my everyday life or conversations with friends. In my free time, I like to cook, practice piano, and play various video games."
 
 
   return (
+    
+    
     <div className="portfolioapp stack-large">
+      
       <Title image="myimage" id="title"/>
   
-      <Banner title="About Me" id="aboutme" text = {aboutMeText}/>
+      <Banner id="banner"/>
 
       <Block title="Resume" id="resume">
         
