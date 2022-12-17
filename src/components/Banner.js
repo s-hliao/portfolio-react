@@ -11,16 +11,37 @@ export default function Banner(props){
 
     return (
         <section class="section-container" id="banner">
-                <Fade>
-                    <he2 id="banner-title">
-                        About Me
-                    </he2>
+            <div class="container-col" id="aboutme-container">
+                
+                <div id="banner-aboutme">
+                    <Fade>
+                        <he2 id="aboutme">
+                            About Me
+                        </he2>
+                    </Fade>    
+                </div>
 
+                <div class="container-row">
+                    <div id="banner-p">
+                        <Fade>
+                            <p id="about-me-text">
+                            {aboutMeText}
+                            </p>
+                        </Fade>
+                    </div>
+                    
+                    <img  id="divider" src="https:\\s-hliao.github.io\portfolio-react\white.jpg" alt="divider" />
 
-                    <p>
-                      {aboutMeText}
-                    </p>
-                </Fade>
+                    <div id="banner-p">
+                        <Fade>
+                            <p id="about-me-text">
+                            {aboutMeText}
+                            </p>
+                        </Fade>
+                    </div>
+                </div>
+
+            </div>
                 
         
 

@@ -56,8 +56,8 @@ export default function Title(props){
                     
             </section>
             <div id="read_more">
-                <Fade appear={scrollPosition<100} when={scrollPosition<100} duration={100}>
-                    <Fade appear delay={2000} duration={500}>
+                <Fade appear={scrollPosition<300} when={scrollPosition<300} duration={100}>
+                    <Fade appear delay={1000} duration={500}>
                         <div class="animate__animated animate__pulse">
                             <img  id="chevron" src="https:\\s-hliao.github.io\portfolio-react\chevron-clipart-symbol-1.jpg" alt="Chevron" />
                             <br/>  <br/>
