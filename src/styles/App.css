@@ -14,12 +14,35 @@ he2{
 
 he3{
     font-family: Helvetica;
-    font-size: 30px;
+    font-size: 5vh;
     color:white;
 }
 
-h4{
+he4{
     font-family: Arial;
     font-size: 3vh;
     color:black;
 }
+
+f2{
+    font-family: Helvetica;
+    font-size: 3vh;
+    color:white;
+}
+
+hor {
+    display: block;
+    height: 2px;
+    width:90%;
+    border-width: 2px;
+    border: 2px solid black;
+    border-radius: 2px;
+    background-color: black;
+    
+  }
+
+.divider{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+

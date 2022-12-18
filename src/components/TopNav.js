@@ -18,11 +18,12 @@ export default function TopNav(){
                     <Nav className="ms-auto">
                         
                         <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#link">About Me</Nav.Link>
-                        <Nav.Link href="#link">Projects</Nav.Link>
-                        <Nav.Link href="#link">Research</Nav.Link>
+                        <Nav.Link href="#banner">About Me</Nav.Link>
+                        <Nav.Link href="#banner">Resume</Nav.Link>
+                        <Nav.Link href="#project">Projects</Nav.Link>
+                        <Nav.Link href="#research">Research</Nav.Link>
                         <div class="padding-right">
-                            <Nav.Link href="#link">Contact Me</Nav.Link>
+                            <Nav.Link href="#contact">Contact Me</Nav.Link>
                         </div>
                     </Nav>
                 </Navbar.Collapse>

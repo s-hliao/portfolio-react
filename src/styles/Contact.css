@@ -1,0 +1,49 @@
+#contact-container{
+
+    padding: 5vh;
+    width:50%;
+    
+}
+
+#contact{
+    background-image: url("../../public/banner-background.jpg");
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    
+}
+
+.contact-item{
+    flex: 1;
+    padding-left:5%;
+    padding-right: 5%;
+
+    
+}
+
+
+
+.top-boxes{
+    flex: 1;
+    justify-content: space-around;
+    margin-bottom: 3vh;
+}
+
+#contact-title{
+    color:white;
+    font-weight: bold;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    
+}
+
+#contact-form{
+    justify-content: center;
+    text-align: center;
+    padding-top: 5vh;
+}
+
+.message{
+    width:100%;
+    margin-bottom: 2vh;
+}

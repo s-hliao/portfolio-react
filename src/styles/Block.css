@@ -1,0 +1,16 @@
+#block-title{
+    color:black;
+    font-weight: bold;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    
+}
+
+#block-content{
+    margin-top: 3vh;
+    margin-bottom:3vh;
+}
+
+.flex1{
+    flex:1;
+}

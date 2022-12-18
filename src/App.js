@@ -1,15 +1,17 @@
 import Title from './components/Title'
 import Banner from './components/Banner'
 import Block from './components/Block'
-import Array from './components/Array'
-import BlockText from './components/BlockText'
 import Modal from "./components/Modal"
 import Hook from "./components/Hook"
+import Footer from "./components/Footer"
+import Contact from "./components/Contact"
+
+
+import Table from "react-bootstrap/Table"
+import "./styles/Container.css"
+
 
 function App() {
-
-
-
   return (
     
     
@@ -19,32 +21,35 @@ function App() {
   
       <Banner id="banner"/>
 
-      <Block title="Resume" id="resume">
-        
-          <a href="https:\\s-hliao.github.io\portfolio-react\Resume Henry Liao.pdf">Resume</a>
-      </Block>
 
       <Block title="Projects" id="project">
-        <Array>
-          <Hook/>
-          <Hook/>
-          <Hook/>
-          <Hook/>
-        </Array>
-        
+        <Table>
+          <tr>
+            <Hook/>
+            <Hook/>
+            <Hook/>
+          </tr>
+          <tr>
+            <Hook/>
+          </tr>      
+        </Table>  
       </Block>
+      <div class="section-container container-col divider">
+        <hor/>
+      </div>
 
       <Block title = "Research" id="research">
-        <Array>
-          <Hook/>
-        </Array>
+        <Table>
+          <tr>
+            <Hook/>
+          </tr> 
+        </Table>
       </Block>
 
-      <Block title = "Contact Me" id="contact">
-        <></>
-      </Block>
+      <Contact/>
 
-      <h2>Made with JSX</h2>
+
+      <Footer/>
     </div>
   );
 }

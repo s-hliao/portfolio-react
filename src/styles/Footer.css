@@ -1,0 +1,52 @@
+#footer-container{
+
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    display: flex;
+}
+
+#footer-section{
+    background: #212529;
+
+}
+
+#footer-desc{
+    flex:1;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+#footer-icons{
+    flex:.5;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+    
+f1{
+    font-family: Arial;
+    font-size: 2.5vh;
+    color:white;
+}
+
+btn-footer {
+    color: #F9F9F9;
+    cursor: pointer;
+    opacity:1;
+    transition:1s;
+    background-color:#212529;;
+    max-width: 20%;
+    height: 5vh;
+    margin: 2vh;
+    border-radius: 1px;
+    
+    
+    flex:1
+  }
+btn-footer:hover{
+    cursor:pointer; 
+    opacity:0.5;
+    transition:1s;
+    
+}
+
