@@ -1,6 +1,8 @@
 import React, {useState} from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Modal, Button} from 'react-bootstrap';
+import '../styles/Hook.css'
+import '../styles/Container.css'
 
 export default function Hook(props){
 
@@ -12,7 +14,9 @@ export default function Hook(props){
         <td>
 
             <Button className="btn-modal" onClick={handleShow}>
-                <img src={props.displayImage} alt="Button image"/>
+                <div class="container-col" id="button-container">
+                    <img class="button-img" src={props.displayImage} alt="Button image"/>
+                </div>
             </Button>
 
             <Modal show={show} onHide={handleClose} size="sm">

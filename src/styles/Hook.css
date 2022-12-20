@@ -1,0 +1,19 @@
+.button-img {
+    max-height: 20vw;
+    
+}
+
+
+
+th{
+    padding-left: 30px;
+    padding-right: 30px;
+    
+  }
+
+  td{
+    width: 30%;
+    height: 30vh;
+    padding-left: 30px;
+    padding-right: 30px;
+  }

@@ -13,10 +13,10 @@ import "./styles/Container.css"
 
 function App() {
   var img1landing =  "https://s-hliao.github.io/portfolio-react/portfolio-landing.jpg"
-  var img2landing =  "https://s-hliao.github.io/portfolio-react/app-landing.jpg"
+  var img2landing =  "https://s-hliao.github.io/portfolio-react/app-landing.png"
   var img3landing =  "https://s-hliao.github.io/portfolio-react/battlecode-landing.png"
 
-  var img3landing =  "https://s-hliao.github.io/portfolio-react/autorally.jpg"
+  var img4landing =  "https://s-hliao.github.io/portfolio-react/autorally.jpg"
   
   
   return (
@@ -36,9 +36,7 @@ function App() {
             <Hook displayImage={img2landing}/>
             <Hook displayImage={img3landing}/>
           </tr>
-          <tr>
-            <Hook/>
-          </tr>      
+    
         </Table>  
       </Block>
       <div class="section-container container-col divider">
@@ -48,7 +46,7 @@ function App() {
       <Block title = "Research" id="research">
         <Table>
           <tr>
-            <Hook/>
+            <Hook displayImage={img4landing}/>
           </tr> 
         </Table>
       </Block>
