@@ -11,7 +11,7 @@ a, a:hover, a:focus, a:active {
 }
 
 #aboutme-container{
-    background-image: url("../../public/banner-background.jpg");
+    background-image: url("https://s-hliao.github.io/portfolio-react/banner-background.jpg");
     background-position: center;
     background-size:auto;
     background-color: blue;
@@ -88,7 +88,7 @@ hr{
 
 
 #banner{
-    background-image: url("../../public/banner-background.jpg");
+    background-image: url("https://s-hliao.github.io/portfolio-react/banner-background.jpg");
     background-position: center;
     background-size: auto;
     

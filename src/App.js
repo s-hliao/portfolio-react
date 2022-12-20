@@ -12,6 +12,13 @@ import "./styles/Container.css"
 
 
 function App() {
+  var img1landing =  "https://s-hliao.github.io/portfolio-react/portfolio-landing.jpg"
+  var img2landing =  "https://s-hliao.github.io/portfolio-react/app-landing.jpg"
+  var img3landing =  "https://s-hliao.github.io/portfolio-react/battlecode-landing.png"
+
+  var img3landing =  "https://s-hliao.github.io/portfolio-react/autorally.jpg"
+  
+  
   return (
     
     
@@ -25,9 +32,9 @@ function App() {
       <Block title="Projects" id="project">
         <Table>
           <tr>
-            <Hook/>
-            <Hook/>
-            <Hook/>
+            <Hook displayImage={img1landing} />
+            <Hook displayImage={img2landing}/>
+            <Hook displayImage={img3landing}/>
           </tr>
           <tr>
             <Hook/>
