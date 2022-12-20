@@ -12,7 +12,7 @@ import "./styles/Container.css"
 
 
 function App() {
-  var img1landing =  "https://s-hliao.github.io/portfolio-react/portfolio-landing.jpg"
+  var img1landing =  "https://s-hliao.github.io/portfolio-react/portfolio-landing.png"
   var img2landing =  "https://s-hliao.github.io/portfolio-react/app-landing.png"
   var img3landing =  "https://s-hliao.github.io/portfolio-react/battlecode-landing.png"
 
