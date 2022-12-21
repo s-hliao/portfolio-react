@@ -40,6 +40,10 @@ hor {
     background-color: black;
     
   }
+  .modalpart {
+    width: 100%;
+  }
+
 
 .divider{
     padding-top: 5vh;

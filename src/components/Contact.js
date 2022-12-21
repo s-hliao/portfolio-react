@@ -94,7 +94,7 @@ export default function Contact(props){
                                     padding:"1vh",
                                     paddingLeft:"5%",
                                     paddingRight:"5%"}}>
-                                        Generate Message
+                                        Get in contact
                                                             
                                 </button>
                             </div>
