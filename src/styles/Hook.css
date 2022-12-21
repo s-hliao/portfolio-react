@@ -35,12 +35,12 @@
 }
 
 #modal-container{
-  height: 50vh;
   display: flex;
+  justify-content: center;
 }
 
 
-.flex1{
+.flex2{
   flex:1;
   font-size: 2.5vh;
   height: 100% ;

@@ -45,8 +45,7 @@ function App() {
   var prog3= "Built with Java for MIT Battlecode "
   var full3= "I competed in the MIT Battlecode 2022 season with team 'don't @ me', placing 20th overall out of about 220 high school and college teams.\
               During the season, I lead the development of various crucial pathfinding algorithms, communication protocols, and low-level unit behaviors. \
-              While we did not make finals this year, I am eager to participate again in the 2023 season and hopefully make the top 12 to be able to go to finals\
-              next year. See us play against another team in a match here: https://youtu.be/giZi8DKS1cM?t=650" 
+              While we did not make finals this year, I am eager to participate again in the 2023 season and hopefully make the top 12 to be able to go to finals. See us play against another team in a match here: https://youtu.be/giZi8DKS1cM?t=650" 
   var src3 =  "https://github.com/georgezhang02/battlecode22"
 
   var img4landing =  "https://s-hliao.github.io/portfolio-react/autorally.jpg"

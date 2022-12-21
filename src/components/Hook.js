@@ -55,7 +55,7 @@ export default function Hook(props){
                             </Carousel>
                         </div>
 
-                        <div class="flex1">
+                        <div class="flex2">
 
                             {props.full}
                         </div>
