@@ -36,7 +36,7 @@ function App() {
               It features live authentication and database retrieval powered by Google's Firebase API, and has several
               user-friendly features including a plant index, forum, and FAQ. Further applications include potentially selling
               the automation at a low price point to attract people interested in DIY home vertical farming. Source code link in following devpost.
-              Check out our devpost  <a class="reglink" href="https://devpost.com/software/vfarm"> here</a>.</p>
+              Check out our devpost  <a class="reglink" target="_blank" href="https://devpost.com/software/vfarm"> here</a>.</p>
   var src2 =  "https://github.com/s-hliao/hackgt22"
 
 
@@ -47,7 +47,7 @@ function App() {
   var full3= <p>I competed in the MIT Battlecode 2022 season with team "don't @ me", placing 17th overall out of about 220 high school and college teams.
               During the season, I lead the development of various crucial pathfinding algorithms, communication protocols, and low-level unit behaviors. 
               While we did not make finals this year, I am eager to participate again in the 2023 season and hopefully make the top 12 to be able to go to finals. 
-              See us play against another team in a match here: <a class="reglink" href="https://youtu.be/giZi8DKS1cM?t=650">Sprint 2 Tournament 2023 </a>
+              See us play against another team in a match here: <a class="reglink" target="_blank" href="https://youtu.be/giZi8DKS1cM?t=650">Sprint 2 Tournament 2023 </a>
               </p>
   var src3 =  "https://github.com/georgezhang02/battlecode22"
 
@@ -75,9 +75,9 @@ function App() {
               I again lead the development of various pathfinding algorithms, communication protocols, and low-level unit behaviors. 
               We finished with over 4000 lines of code after 4 week-long, high-intensity sprints. 
               Check out our strategy guide here: 
-              <a href="https://battlecode.org/assets/files/postmortem-2023-dont-at-me.pdf" class="reglink"> Guide</a>.
-              See us play against another team in finals at MIT: <a class="reglink" href="https://www.youtube.com/watch?v=oa4CAizd1Nk">Final Tournament 2023 </a> 
-              and <a class="reglink" href="https://www.youtube.com/watch?v=uz5hyXn9ICQ"> intro video</a>.
+              <a target="_blank" href="https://battlecode.org/assets/files/postmortem-2023-dont-at-me.pdf" class="reglink"> Guide</a>.
+              See us play against another team in finals at MIT: <a class="reglink" target="_blank" href="https://www.youtube.com/watch?v=oa4CAizd1Nk">Final Tournament 2023 </a> 
+              and <a class="reglink" target="_blank" href="https://www.youtube.com/watch?v=uz5hyXn9ICQ"> intro video</a>.
               </p> 
   var src5 =  "https://github.com/georgezhang02/battlecode23"
 
@@ -88,9 +88,9 @@ function App() {
   var prog6= "Built with Numpy, Jupyter, and Seaborn for GT Intro to ML"
   var full6= <p>I helped a group program multiple classification models using supervised and unsupervised learning techniques.
               We preprocessed, classified, and visualized data from the dataset found  
-              <a href="https://www.kaggle.com/datasets/deepu1109/star-dataset?resource=download" class="reglink"> here</a>.
+              <a target="_blank" href="https://www.kaggle.com/datasets/deepu1109/star-dataset?resource=download" class="reglink"> here</a>.
               Documentation for the entire development process and final results can be found
-              <a class="reglink" href="https://s-hliao.github.io/Spring-ML-2023/"> here</a>. Algorithms used included PCA, K-means, GMM,
+              <a class="reglink" target="_blank" href="https://s-hliao.github.io/Spring-ML-2023/"> here</a>. Algorithms used included PCA, K-means, GMM,
               neural networks, SGD, random forests, and logisitc regression, to varying degrees of success.
               </p> 
   var src6 =  "https://github.com/s-hliao/Spring-ML-2023"
@@ -106,7 +106,7 @@ function App() {
                 This led to the problem formulation of sampling around another mean based on the current costmap.
                 I instead created a k-means algorithm for clustering MPPI samples, then a multi-layer-perceptron that included a
                 CNN to map from costmaps and vehicle state to the control sequence cluster. This was in part inspired by waymo's behavioral trajectory classification research
-                called <a href="https://arxiv.org/pdf/1910.05449v1.pdf" class="reglink"> MultiPath</a>. Note that the source code is for 
+                called <a target="_blank" href="https://arxiv.org/pdf/1910.05449v1.pdf" class="reglink"> MultiPath</a>. Note that the source code is for 
                 the MPPI simulator I created, as the RACER code is export-controlled.
               </p> 
   var src7 =  "https://github.com/s-hliao/mppi-plt-sim"

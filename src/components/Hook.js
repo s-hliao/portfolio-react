@@ -62,7 +62,7 @@ export default function Hook(props){
                 </Modal.Body>
 
                 <Modal.Footer>
-                    <a  href={props.src} >
+                    <a target="_blank" href={props.src} >
                         <Button variant="primary" onClick={handleClose}>
                             See Source Code
                         </Button>
