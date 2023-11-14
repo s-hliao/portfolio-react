@@ -65,7 +65,7 @@ function App() {
   var src4 =  "https://github.com/AutoRally/autorally/tree/henry/aruco_marker"
 
 
-  var img5landing =  "https://s-hliao.github.io/portfolio-react/bc.jpg"
+  var img5landing =  "https://s-hliao.github.io/portfolio-react/bc.png"
   var title5 = "Battlecode 2023"
   var desc5= "Another AI bot for competing the annual RTS game."
   var prog5= "Built with Java for MIT Battlecode"
@@ -137,13 +137,13 @@ function App() {
 
             <Hook displayImage={img6landing} title={title6} desc={desc6} prog={prog6} full={full6} src={src6}>
               <Carousel.Item>
-                <img class="modalpart" src="https://s-hliao.github.io/portfolio-react/star1.jpg" alt="ML Photo"/>
+                <img class="modalpart" src="https://s-hliao.github.io/portfolio-react/star1.png" alt="ML Photo"/>
               </Carousel.Item>
               <Carousel.Item>
                 <img class="modalpart" src="https://s-hliao.github.io/portfolio-react/star2.png" alt="ML Photo"/>
               </Carousel.Item>
               <Carousel.Item>
-                <img class="modalpart" src="https://s-hliao.github.io/portfolio-react/star3.jpg" alt="ML Photo"/>
+                <img class="modalpart" src="https://s-hliao.github.io/portfolio-react/star3.png" alt="ML Photo"/>
               </Carousel.Item>
             </Hook>
 
@@ -202,7 +202,7 @@ function App() {
           <tr>
             <Hook displayImage={img7landing} title={title7} desc={desc7} prog={prog7} full={full7} src={src7}>
               <Carousel.Item>
-                <img class="modalpart" src="https://s-hliao.github.io/portfolio-react/racer1.png" alt="Racer Photo"/>
+                <img class="modalpart" src="https://s-hliao.github.io/portfolio-react/racer1.jpg" alt="Racer Photo"/>
               </Carousel.Item>
               <Carousel.Item>
                 <img class="modalpart" src="https://s-hliao.github.io/portfolio-react/racer2.png" alt="Racer Photo"/>
