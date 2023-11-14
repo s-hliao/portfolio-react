@@ -11,7 +11,7 @@ export default function Hook(props){
     const handleShow = () => setShow(true);
 
     return (
-        <td>
+        <td width="33%">
             
             <Button className="btn-modal" onClick={handleShow}>
                 <img class="button-img" src={props.displayImage} alt="Button image"/>
@@ -41,7 +41,7 @@ export default function Hook(props){
             </Button>
             
 
-            <Modal show={show} onHide={handleClose} size="lg" centered >
+            <Modal show={show} onHide={handleClose} size="lg" centered>
 
                 <Modal.Header closeButton>
                     <Modal.Title>{props.title}</Modal.Title>
@@ -56,7 +56,6 @@ export default function Hook(props){
                         </div>
 
                         <div class="flex2">
-
                             {props.full}
                         </div>
                     </div>
