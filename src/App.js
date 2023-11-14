@@ -67,7 +67,7 @@ function App() {
 
   var img5landing =  "https://s-hliao.github.io/portfolio-react/bc.png"
   var title5 = "Battlecode 2023"
-  var desc5= "Another AI bot for competing the annual RTS game."
+  var desc5= "Another AI bot for competing the in the annual RTS game."
   var prog5= "Built with Java for MIT Battlecode"
   var full5= <p>I competed in the MIT Battlecode 2023 season with team "don't @ me", placing 7th overall out of over 200 high school and college teams.
               During this season, we reexamined the shortcomings of our team from the previous season, and made modifications to our strategy
