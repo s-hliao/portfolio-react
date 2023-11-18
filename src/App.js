@@ -85,7 +85,7 @@ function App() {
   var img6landing =  "https://s-hliao.github.io/portfolio-react/star.jpg"
   var title6 = "Stellar Classification"
   var desc6= "A collection of ML Models for classifying various stars"
-  var prog6= "Built with Numpy, Jupyter, and Seaborn for GT Intro to ML"
+  var prog6= "Built with Numpy, Jupyter, and Seaborn for GT ML"
   var full6= <p>I helped a group program multiple classification models using supervised and unsupervised learning techniques.
               We preprocessed, classified, and visualized data from the dataset found  
               <a target="_blank" href="https://www.kaggle.com/datasets/deepu1109/star-dataset?resource=download" class="reglink"> here</a>.
