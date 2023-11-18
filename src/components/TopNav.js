@@ -20,8 +20,8 @@ export default function TopNav(){
                         <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#banner">About Me</Nav.Link>
                         <Nav.Link href="#banner">Resume</Nav.Link>
-                        <Nav.Link href="#project">Projects</Nav.Link>
                         <Nav.Link href="#research">Research</Nav.Link>
+                        <Nav.Link href="#project">Projects</Nav.Link>
                         <div class="padding-right">
                             <Nav.Link href="#contact">Contact Me</Nav.Link>
                         </div>

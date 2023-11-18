@@ -120,6 +120,41 @@ function App() {
       
       <Title image="myimage" id="title"/>
       <Banner id="banner"/>
+
+
+      <Block title = "Research" id="research">
+        <Table class = "table">
+          <tr>
+            <Hook displayImage={img7landing} title={title7} desc={desc7} prog={prog7} full={full7} src={src7}>
+              <Carousel.Item>
+                <img class="modalpart" src="https://s-hliao.github.io/portfolio-react/racer1.jpg" alt="Racer Photo"/>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img class="modalpart" src="https://s-hliao.github.io/portfolio-react/racer2.png" alt="Racer Photo"/>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img class="modalpart" src="https://s-hliao.github.io/portfolio-react/racer3.png" alt="Racer Photo"/>
+              </Carousel.Item>
+              
+            </Hook>
+
+            <Hook displayImage={img4landing} title={title4} desc={desc4} prog={prog4} full={full4} src={src4}>
+              <Carousel.Item>
+                <img class="modalpart" src="https://s-hliao.github.io/portfolio-react/autorally-1.png" alt="AutoRally Photo"/>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img class="modalpart" src="https://s-hliao.github.io/portfolio-react/autorally-2.png" alt="AutoRally Photo"/>
+              </Carousel.Item>
+              
+            </Hook>
+
+            <td />
+          </tr> 
+        </Table>
+      </Block>
+      <div class="section-container container-col divider">
+        <hor/>
+      </div>
       <Block title="Projects" id="project">
         <Table class = "table">
           <tr>
@@ -193,47 +228,9 @@ function App() {
     
         </Table>  
       </Block>
-      <div class="section-container container-col divider">
-        <hor/>
-      </div>
+      
 
-      <Block title = "Research" id="research">
-        <Table class = "table">
-          <tr>
-            <Hook displayImage={img7landing} title={title7} desc={desc7} prog={prog7} full={full7} src={src7}>
-              <Carousel.Item>
-                <img class="modalpart" src="https://s-hliao.github.io/portfolio-react/racer1.jpg" alt="Racer Photo"/>
-              </Carousel.Item>
-              <Carousel.Item>
-                <img class="modalpart" src="https://s-hliao.github.io/portfolio-react/racer2.png" alt="Racer Photo"/>
-              </Carousel.Item>
-              <Carousel.Item>
-                <img class="modalpart" src="https://s-hliao.github.io/portfolio-react/racer3.png" alt="Racer Photo"/>
-              </Carousel.Item>
-              
-            </Hook>
-
-            <Hook displayImage={img4landing} title={title4} desc={desc4} prog={prog4} full={full4} src={src4}>
-              <Carousel.Item>
-                <img class="modalpart" src="https://s-hliao.github.io/portfolio-react/autorally-1.png" alt="AutoRally Photo"/>
-              </Carousel.Item>
-              <Carousel.Item>
-                <img class="modalpart" src="https://s-hliao.github.io/portfolio-react/autorally-2.png" alt="AutoRally Photo"/>
-              </Carousel.Item>
-              
-            </Hook>
-
-            <td />
-
-            
-            
-          </tr> 
-
-
-
-
-        </Table>
-      </Block>
+      
       <div class="divider">
         
       </div>
