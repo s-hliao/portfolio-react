@@ -16,7 +16,7 @@ export default function Footer(){
                     <f1>Built with Bootstrap and ReactJS</f1>
                 </div>
                 <div id="footer-icons">
-                    <a  href="https://www.facebook.com/henry.liao.796/" >
+                    <a target="_blank" href="https://www.facebook.com/henry.liao.796/" >
                         <btn-footer type="button btn ">
                         
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
@@ -25,7 +25,7 @@ export default function Footer(){
                         
                         </btn-footer>
                     </a>
-                    <a  href="https://www.instagram.com/henrymattisse/" >
+                    <a target="_blank" href="https://www.instagram.com/henrymattisse/" >
                         <btn-footer type="button btn ">
                         
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">

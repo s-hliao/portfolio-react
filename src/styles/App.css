@@ -71,4 +71,9 @@ hor {
 
 .table{
     table-layout: fixed
+    
+}
+
+.table td {
+    height: 50vh;
 }
